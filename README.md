@@ -1,3 +1,12 @@
+###note to reviewer
+you can doa quick test of this code using the code below. Be sure to source the file in this repo first.
+
+```r
+cachedMatrix<-makeCacheMatrix()
+cachedMatrix$set(matrix(1:6,2,2))
+cacheSolve(cachedMatrix)
+```
+
 ### Introduction
 
 This second programming assignment will require you to write an R
